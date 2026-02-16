@@ -192,10 +192,14 @@ These hands-on experiences have sharpened my ability to troubleshoot complex sys
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="https://formspree.io/f/xykdwroo" method="POST" class="contact__form">
+                    <form action="https://formspree.io/f/mqedbedq" method="POST" class="contact__form">
                         <input type="text" name="name" placeholder="Name" class="contact__input" required>
-                        <input type="email" name="email" placeholder="Email" class="contact__input" required>
-                        <textarea name="message" placeholder="Message" cols="0" rows="10" class="contact__input" required></textarea>
+                        <label class="contact__label">Your email:
+                            <input type="email" name="email" class="contact__input" required>
+                        </label>
+                        <label class="contact__label">Your message:
+                            <textarea name="message" class="contact__input" rows="10" required></textarea>
+                        </label>
                         <button type="submit" class="contact__button button">Send</button>
                     </form>
                 </div>
